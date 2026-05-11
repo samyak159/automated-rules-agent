@@ -1,3 +1,19 @@
 psycopg2-binary
 anthropic
 requests
+
+
+--Phase 1
+Have claude look at the correct execution outputs. Make it understand what is a rule,
+rule execution, rule execution output.
+
+From these correct outputs, make it learn and then on an hourly basis, run the agent
+through the executions and identify anomalies
+
+Slack incase it catches any wrong execution.
+
+
+
+--Phase 2
+Make the action self-heal (i.e, identify the anomaly, think what steps to be taken,
+take corrective action (change status of rule, make the definition correct, change the outputs).
